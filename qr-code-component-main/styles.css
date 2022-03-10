@@ -1,0 +1,41 @@
+body {
+  font-size: 15px;
+  text-align: center;
+  background-color: #D5E1EF;
+  font-family: 'Outfit', sans-serif;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 93vh;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 300px;
+}
+
+img {
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+.text {
+  padding: 10px 20px;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
