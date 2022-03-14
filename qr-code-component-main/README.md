@@ -4,7 +4,7 @@
 
 # Frontend Mentor - QR code component - my design
 
-![Design preview for the QR code component coding challenge](./design/my-design.jpg)
+![Design preview for the QR code component coding challenge](./design/my-design.png)
 ## Built with
 
 - Semantic HTML5 markup
