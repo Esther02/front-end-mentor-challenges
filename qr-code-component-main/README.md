@@ -5,6 +5,8 @@
 # Frontend Mentor - QR code component - my design
 
 ![Design preview for the QR code component coding challenge](./design/my-design.png)
+* My card seems larger in the photo. However, the sizing in the browser is similar.
+
 ## Built with
 
 - Semantic HTML5 markup
@@ -22,7 +24,7 @@ I will keep practising daily CSS/HTML to develop speed from creating a variety o
 ### Useful resources
 
 - [A complete guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me centering the elements of my card and the card itself. I constantly refer back to it. I recommend you bookmart it. 😊
-- [flexbox frog game](http://flexboxfroggy.com/) - Do you like games? If you do and wanna learn more, have a look at this game. It has 24 levels and teaches you everything about flexbox. Can you master the 24 levels?
+- [flexbox frog game](http://flexboxfroggy.com/) - Do you like games? If you do and wanna learn more, have a look at this game. It has 24 levels and teaches you everything about flexbox. Can you master the 24 levels?🐸
 
 ## Esther... where did you get this challenge from?
 
