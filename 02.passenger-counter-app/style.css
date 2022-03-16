@@ -8,13 +8,14 @@ body {
 }
 .container {
   margin: 30px;
-  background-color: #ffffff;
+  background-color: rgba(206, 206, 211, 0.5);
   border: 1px solid black;
-  opacity: 0.9;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 80vh;
   margin-top: 50px;
   padding: 20px;
+  min-height: 55vh;
+  box-shadow: 7px 5px 22px -3px rgba(0,0,0,0.71);
 }
 
 h1 {
