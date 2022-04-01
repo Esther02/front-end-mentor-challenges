@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  background-color: black;
+}
+
+.container {
+  background-image: linear-gradient(
+  220deg,
+  hsl(244deg 90% 66%) 0%,
+  hsl(259deg 82% 63%) 11%,
+  hsl(272deg 74% 60%) 22%,
+  hsl(284deg 67% 57%) 33%,
+  hsl(295deg 61% 54%) 44%,
+  hsl(305deg 63% 53%) 56%,
+  hsl(313deg 72% 55%) 67%,
+  hsl(319deg 81% 56%) 78%,
+  hsl(325deg 87% 58%) 89%,
+  hsl(330deg 93% 60%) 100%
+);
+  width: 550px;
+  height: 260px;
+  margin: auto;
+  margin-top: 30px;
+  color: white;
+}
+
+h2 {
+  padding: 50px 50px 20px 50px;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 98px;
+  margin: 0;
+}
+
+/* bottom container */
+
+.bottom-container {
+  width: 550px;
+  height: 260px;
+  margin: auto;
+  padding-top: 30px;
+  background-color: white;
+}
