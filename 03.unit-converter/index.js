@@ -1,10 +1,13 @@
-// Use a common class for all the 20 (user input)
 // Get the user input.(standar input to begin with)
 // Create functions with the convertion of the user input (e.g. meters to feet and viceversa)
 // Display them inside the html elements.
 
-let userInput = document.getElementById("unit").textContent = 18;
+// let userInput = document.getElementById("unit").textContent = 18;
+
 let error = document.getElementById("error");
+let userInput = document.getElementById("submitbutton").onclick = function() {
+  return parseInt(document.getElementById("myText").value)
+}
 
 function length() {
     let meterToFeet = userInput * 3.28084
@@ -36,4 +39,3 @@ function errorMessage() {
 length()
 volume()
 mass()
-errorMessage()
