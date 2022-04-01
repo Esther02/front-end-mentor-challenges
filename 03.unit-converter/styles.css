@@ -47,3 +47,8 @@ h1 {
   padding-top: 30px;
   background-color: white;
 }
+#error {
+    color: yellow;
+    font-weight: 600px;
+    margin: 0;
+}
