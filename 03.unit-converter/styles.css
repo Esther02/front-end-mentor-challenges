@@ -33,14 +33,25 @@ h2 {
   font-size: 22px;
 }
 
-h1 {
-  font-size: 98px;
-  margin: 0;
+input {
+  font-weight: bold;
+  border: transparent;
+  width: 200px;
+  font-size: 80px;
+  background: transparent;
+  text-align: center;
+  opacity: 0.6;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  outline: none;
+}
+input::placeholder {
+  color: white;
 }
 
 /* bottom container */
 
-.bottom-container {
+.result-container {
   width: 550px;
   height: 260px;
   margin: auto;

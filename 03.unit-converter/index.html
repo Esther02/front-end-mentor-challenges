@@ -5,25 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Unit Converter</title>
 </head>
 <body>
   <div class="container">
     <h2>Metric/Imperial unit conversion</h2>
-    <input type="text" id="myText">
+    <input type="number" id="myText" placeholder="0" oninput="getVal()">
     <p id="error"></p>
-    <button id="submitbutton">Submit</button>
   </div>
-  <div class="bottom-container">
+  <div class="result-container">
     <p><strong>Length (Meter/Feet)</strong></p>
     <div id="length"></div>
-
     <p><strong>Volume (Litres/Gallons)</strong></p>
     <div id="volume"></div>
-
     <p><strong>Mass (Kilograms/Pounds)</strong></p>
     <div id="mass"></div>
   </div>
