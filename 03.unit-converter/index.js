@@ -3,12 +3,43 @@ length(0)
 volume(0)
 mass(0)
 
-// Getting the value from the user and passing it to functions
+// themes
+function greenColor() {
+  document.getElementById("background-color").classList.add("green-color")
+}
+
+function blueColor() {
+  document.getElementById("background-color").classList.add("blue-color")
+}
+
+function orangeColor() {
+  document.getElementById("background-color").classList.add("orange-color")
+}
+
+function pinkColor() {
+  document.getElementById("background-color").classList.add("pink-color")
+}
+
+// Getting the value from the user
 function getVal() {
   val = document.querySelector('input').value;
-  length(val);
-  volume(val);
-  mass(val);
+  errorMessage(val)
+}
+
+// Error message when the quantity goes below 0
+function errorMessage(userInput) {
+  if (userInput < 0) {
+    let error = document.getElementById("error");
+    error.textContent = "Please use a value above 0"
+    length(0)
+    volume(0)
+    mass(0)
+  } else {
+    error.textContent = ""
+    length(userInput);
+    volume(userInput);
+    mass(userInput);
+  }
 }
 
 function length(userInput) {

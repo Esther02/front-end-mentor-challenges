@@ -7,6 +7,72 @@ html, body {
   background-color: black;
 }
 
+/* themes */
+.green-color {
+  background-image: linear-gradient(
+  225deg,
+  hsl(160deg 84% 39%) 0%,
+  hsl(161deg 86% 37%) 11%,
+  hsl(162deg 88% 35%) 22%,
+  hsl(162deg 90% 33%) 33%,
+  hsl(163deg 92% 32%) 44%,
+  hsl(163deg 93% 30%) 56%,
+  hsl(163deg 93% 29%) 67%,
+  hsl(164deg 93% 27%) 78%,
+  hsl(164deg 93% 26%) 89%,
+  hsl(164deg 92% 25%) 100%
+) !important;
+}
+.blue-color {
+  background-image: linear-gradient(
+  50deg,
+  hsl(189deg 69% 64%) 0%,
+  hsl(191deg 77% 58%) 9%,
+  hsl(191deg 100% 46%) 19%,
+  hsl(194deg 100% 47%) 28%,
+  hsl(197deg 100% 47%) 38%,
+  hsl(200deg 100% 48%) 48%,
+  hsl(203deg 100% 48%) 59%,
+  hsl(206deg 100% 48%) 69%,
+  hsl(209deg 100% 48%) 79%,
+  hsl(212deg 100% 47%) 90%,
+  hsl(217deg 89% 49%) 100%
+) !important;
+}
+
+.orange-color {
+  background-image: linear-gradient(
+  50deg,
+  hsl(32deg 90% 52%) 0%,
+  hsl(26deg 94% 56%) 11%,
+  hsl(20deg 97% 59%) 22%,
+  hsl(15deg 99% 62%) 34%,
+  hsl(9deg 100% 65%) 45%,
+  hsl(3deg 99% 67%) 57%,
+  hsl(356deg 97% 66%) 68%,
+  hsl(350deg 93% 64%) 80%,
+  hsl(345deg 88% 62%) 91%,
+  hsl(340deg 82% 61%) 100%
+) !important;
+}
+
+.pink-color {
+  background-image: linear-gradient(
+  220deg,
+  hsl(244deg 90% 66%) 0%,
+  hsl(259deg 82% 63%) 11%,
+  hsl(272deg 74% 60%) 22%,
+  hsl(284deg 67% 57%) 33%,
+  hsl(295deg 61% 54%) 44%,
+  hsl(305deg 63% 53%) 56%,
+  hsl(313deg 72% 55%) 67%,
+  hsl(319deg 81% 56%) 78%,
+  hsl(325deg 87% 58%) 89%,
+  hsl(330deg 93% 60%) 100%
+) !important;
+}
+
+/* end of themes */
 .container {
   background-image: linear-gradient(
   220deg,
@@ -26,17 +92,18 @@ html, body {
   margin: auto;
   margin-top: 30px;
   color: white;
+  border-radius: 10px 10px 0 0;
 }
 
 h2 {
-  padding: 50px 50px 20px 50px;
+  padding: 10px 30px 20px 30px;
   font-size: 22px;
 }
 
 input {
   font-weight: bold;
   border: transparent;
-  width: 200px;
+  width: 240px;
   font-size: 80px;
   background: transparent;
   text-align: center;
@@ -57,9 +124,51 @@ input::placeholder {
   margin: auto;
   padding-top: 30px;
   background-color: white;
+  border-radius: 0 0 10px 10px;
 }
 #error {
-    color: yellow;
-    font-weight: 600px;
-    margin: 0;
+  color: yellow;
+  font-weight: 600px;
+  margin: 0;
 }
+
+
+/* dropdown */
+.dropbtn {
+  background: transparent;
+  opacity: 0.6;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 14px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 0;
+  text-decoration: none;
+  display: block;
+  opacity: 0.6;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  opacity: 0.6;
+}
+
+.dropdown:hover .dropdown-content {display: block;}

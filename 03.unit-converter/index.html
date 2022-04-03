@@ -12,9 +12,18 @@
   <title>Unit Converter</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="background-color">
+    <div class="dropdown">
+      <button class="dropbtn">Colour:</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="greenColor()">Green</a>
+        <a href="#" onclick="blueColor()">Blue</a>
+        <a href="#" onclick="orangeColor()">Orange</a>
+        <a href="#" onclick="pinkColor()">Pink</a>
+      </div>
+    </div>
     <h2>Metric/Imperial unit conversion</h2>
-    <input type="number" id="myText" placeholder="0" oninput="getVal()">
+    <input type="number" id="myText" placeholder="0" oninput="getVal()" min="0">
     <p id="error"></p>
   </div>
   <div class="result-container">
