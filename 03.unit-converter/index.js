@@ -5,19 +5,29 @@ mass(0)
 
 // themes
 function greenColor() {
+  removeColor()
   document.getElementById("background-color").classList.add("green-color")
 }
 
 function blueColor() {
+  removeColor()
   document.getElementById("background-color").classList.add("blue-color")
 }
 
 function orangeColor() {
+  removeColor()
   document.getElementById("background-color").classList.add("orange-color")
 }
 
 function pinkColor() {
+  removeColor()
   document.getElementById("background-color").classList.add("pink-color")
+}
+
+// Removing other colour classes when selecting one so it can be selected more than once
+
+function removeColor() {
+  document.getElementById("background-color").classList.remove("green-color", "blue-color", "orange-color", "pink-color")
 }
 
 // Getting the value from the user
@@ -31,9 +41,6 @@ function errorMessage(userInput) {
   if (userInput < 0) {
     let error = document.getElementById("error");
     error.textContent = "Please use a value above 0"
-    length(0)
-    volume(0)
-    mass(0)
   } else {
     error.textContent = ""
     length(userInput);
